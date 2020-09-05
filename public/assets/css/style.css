@@ -30,10 +30,6 @@ html, body {
     font-family: 'Lato', sans-serif;
 }
 
-.service-body {
-    background-color: #C0DEFF;
-}
-
 .w-100 {
     width: 100% !important;
     height: 75vh;

@@ -3,17 +3,33 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=
 shrink-to-fit=no">
-    <title>Contact form</title>
-    <!-- Bootstrap core CSS -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.
-5.2/css/bootstrap.min.css" 
-integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP
-+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Contact Form</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="public/assets/css/contact.css" rel="stylesheet">
 </head>
 
 <body>
 
-<link href="assets/css/contact.css" rel="stylesheet">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTog" aria-controls="navbarTog" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTog">
+            <a class="navbar-brand" href="index.html">Pro Bono</a>
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="services.html">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="forum.html">Forum</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
 <div class="body">
 
@@ -48,7 +64,7 @@ class="form-control" required>
         </div>
 
         <div class="form-group">
-            <label for="Message" class="label">Your Message</label>
+            <label for="Message" class="label">Describe Your Legal Issue Here:</label>
             <div class="input-group">
                 <textarea id="Message" name="Message" class="form-control"
 rows="6" maxlength="3000" required></textarea>
@@ -57,7 +73,7 @@ rows="6" maxlength="3000" required></textarea>
 
         <div class="form-group">
             <button type="submit" id="button" class="btn 
-btn-primary btn-lg btn-block">Describe Your Legal Issue Here</b>
+btn-primary btn-lg btn-block">Contact</b>
         </div>
 
 
@@ -65,7 +81,39 @@ btn-primary btn-lg btn-block">Describe Your Legal Issue Here</b>
     </div>
     <div>
 
-    
+    <footer class="pt-4 my-md-5 pt-md-5 border-top">
+        <div class="row">
+
+            <div class="col-8 col-md-9 mx-auto">
+                <h5 class="text-uppercase whitecolor">Contact</h5>
+                <hr class="accent mt-0 d-inline-block mx-auto hrline" style="width: 80px;">
+                <p>
+                    <i class="fa fa-home mr-2"></i>
+                    Pro Bono<br>
+                    123 Main St. Atlanta, GA 30058<br>
+                    Santa Monica, CA 90406
+                </p>
+                <p>
+                    <i class="fa fa-envelope mr-3"></i> <a href="mailto:">ProBono-Atlanta@probono.com</a>
+                </p>
+                <p>
+                    <i class="fa fa-phone mr-3"></i> <a href="tel:1234567890">404-555-5555</a>
+                </p>
+                <p>
+                    <i class="fa fa-print mr-3"></i> <a href="tel:1234567899">404-555-5556</a>
+                </p>
+            </div>
+
+          <div class="col-4 col-md-3">
+            <h5>Navigation</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="index.html">Home</a></li>
+              <li><a class="text-muted" href="services.html">Services</a></li>
+              <li><a class="text-muted" href="forum.html">Forums</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
 integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew
