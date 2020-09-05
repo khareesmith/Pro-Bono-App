@@ -1,3 +1,22 @@
-.masthead{
+html, body {
+    height: 100%;
+}
+
+.cover-container{
     background-image: url(../img/clay-banks-OvGIFsexb-8-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+.masthead-brand {
+    font-family: 'Cinzel', serif;
+    color: white;
+}
+
+.lead, .cover-heading {
+    color: white;
+    font-family: 'Lato', sans-serif;
 }
