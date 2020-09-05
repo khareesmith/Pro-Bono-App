@@ -16,7 +16,30 @@ html, body {
     color: white;
 }
 
+.service-header {
+    font-family: 'Cinzel', serif;
+}
+
 .lead, .cover-heading {
     color: white;
     font-family: 'Lato', sans-serif;
+}
+
+.service-lead {
+    color: #003e80;
+    font-family: 'Lato', sans-serif;
+}
+
+.service-body {
+    background-color: #C0DEFF;
+}
+
+.w-100 {
+    width: 100% !important;
+    height: 75vh;
+  }
+
+.blackquote {
+    color: white;
+    background: rgba(155, 155, 155, 0.6);
 }
