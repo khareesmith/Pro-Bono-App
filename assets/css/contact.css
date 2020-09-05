@@ -104,12 +104,6 @@ label.label {
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
-@media (prefers-reduced-motion: reduce) {
-    .btn {
-        transition: none;
-    }
-}
-
 .btn:hover {
     color: #212529;
     text-decoration: none;
@@ -134,7 +128,7 @@ label.label {
 
 .btn-primary:focus, .fcf-btn-primary.focus {
     color: #fff;
-    background-color: #0069d9;
+    background-color: blue;
     border-color: #0062cc;
     box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
 }
